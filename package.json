@@ -1,0 +1,13 @@
+{
+  "name": "vocabulary-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "连词成句英语词汇学习工具",
+  "license": "MIT",
+  "scripts": {
+    "dev": "python -m uvicorn main:app --host 127.0.0.1 --port 5000 --reload",
+    "test": "python -m pytest tests/unit",
+    "import:app": "python -c \"import main; print('app import ok')\"",
+    "verify": "npm.cmd run test && npm.cmd run import:app"
+  }
+}

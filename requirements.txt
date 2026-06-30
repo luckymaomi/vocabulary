@@ -1,0 +1,20 @@
+﻿# FastAPI核心
+fastapi==0.118.0
+uvicorn==0.33.0
+
+# HTTP客户端（调用AI API）
+httpx==0.28.1
+
+# Excel文件处理
+openpyxl==3.1.5
+pandas==2.0.3
+
+# 异步文件操作
+aiofiles==24.1.0
+
+# 表单数据处理
+python-multipart==0.0.20
+
+# 测试
+pytest==8.3.4
+
